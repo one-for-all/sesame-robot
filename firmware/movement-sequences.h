@@ -2,7 +2,7 @@
 
 #include <Arduino.h>
 
-enum ServoName : uint_8t {
+enum ServoName : uint8_t {
   R1 = 0, 
   R2 = 1,
   L1 = 2,
@@ -429,3 +429,4 @@ inline void runTurnRight() {
   }
   runStandPose(1);
 }
+
